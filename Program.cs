@@ -1,6 +1,6 @@
-﻿Student stas = new Student("Сильверхенд Д.Д", 2077, "Пушкина 137", 89996662288, 8, "Программист");
-Student vi = new Student("Киану Ч.Р. ", 1999, "Шишкина 99", 89869487562, 7, "уборщик");
-Student ponam = new Student("Уик Д.К.", 2014, "Советская 15", 89008947683, 6, "коллектор");
+﻿Student stas = new Student("Сильверхенд Д.Д", 2077, "ТЮТЮнина 13", 89996662288, 8, "Программист");
+Student vi = new Student("Киану Ч.Р. ", 1999, "КУКУнина 23", 89869487562, 7, "уборщик");
+Student ponam = new Student("Уик Д.К.", 2014, "МУМУкина 90", 89008947683, 6, "коллектор");
 Student[] mass = new Student[] { stas, vi, ponam };
 for (int i = 0; i < mass.Length; i++){
     Console.WriteLine($"Ф.И.О. Студентa - {mass[i].fio}");
